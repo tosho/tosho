@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <meta charset="utf-8">
-    <style>
-      .black-border {border:3px solid black; padding:3px;)
-      .block {display:block;margin:0;padding:0; position: absolute;}
-    </style>
-  </head>
-  <body>
-    <div class="black-border">
-    <h1>HI</h1>
-    <div>world</div>
-      <div>...</div>
-    </div>
-    
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    * {font-family: Arial, Helvetica, sans-serif }
+    .box {
+      display: block;
+      position: sticky;
+      border: 5px solid black ;
+      border-bottom: 10px solid black;
+      padding: 0px;
+      width: 4rem;
+      height: 3rem;
+      margin: 10rem auto;
+      
+    }
+    .hi {
+      font-weight:bolder; 
+      font-size:3rem;
+      padding: 0px;
+      margin: -2px auto -8px auto;
+      text-align: center;
+      clear: both;
+    }
+    .world {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="hi">HI</div>
+    <div class="world">world</div>
+  </div>
+
+</body>
+
 </html>
